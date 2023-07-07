@@ -175,17 +175,6 @@ button:hover:not([disabled]){
   background: #222;
   color: #fff;
 }
-.big{
-	@media screen and (min-width: 1800px) {
-		font-size: 450px;
-	}
-	@media screen and (max-width: 1800px) {
-		font-size: 350px;
-	}
-	@media screen and (max-width: 1194px) {
-		font-size: 250px;
-	}
-}
 
 .pinentry{
   display: block;
