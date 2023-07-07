@@ -176,12 +176,13 @@ button:hover:not([disabled]){
   color: #fff;
 }
 .big{
-	font-size: 50px;
+	font-size: 500px;
 }
 
 .pinentry{
   display: block;
   width: 100%;
+	hight: 100px;
   padding: 0.75rem;
   box-sizing: border-box;
   border-radius: var(4px);
@@ -190,5 +191,5 @@ button:hover:not([disabled]){
   background: #eeeeee;
   transition: background 0.2s, border-color 0.2;
 	text-align: center;
-	font-size: 20px;
+	font-size: 70px;
 }
