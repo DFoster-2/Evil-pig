@@ -171,3 +171,14 @@ button:hover:not([disabled]){
   background: #222;
   color: #fff;
 }
+
+.pinentry{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(4px);
+  border: 1px  solid #001e4d;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2;
