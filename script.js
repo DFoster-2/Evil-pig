@@ -63,3 +63,5 @@
   document.currentScript.getAttribute('theme'),
   document.currentScript.getAttribute('position'),
 );
+
+// all rights resved to replit for code
