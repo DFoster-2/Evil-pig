@@ -182,3 +182,5 @@ button:hover:not([disabled]){
   outline: none;
   background: #eeeeee;
   transition: background 0.2s, border-color 0.2;
+	text-align: center;
+}
