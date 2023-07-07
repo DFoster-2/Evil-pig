@@ -50,6 +50,10 @@ li a:hover{
 .active{
   background-color: var(--coler-pri);
 }
+.right{
+	float: right;
+}
+
 .Contanor h1 {
   text-align: center;
 }
