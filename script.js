@@ -33,7 +33,7 @@
 
   // create badge image & styles
   const badgeImage = document.createElement('img');
-  badgeImage.src = `./rsz_1rsz_image-removebg-preview32.png`;
+  badgeImage.src = `./image-removebg-preview.png`;
   badgeImage.id = 'mybage';
   Object.assign(badgeImage.style, validPositions[position]);
 
