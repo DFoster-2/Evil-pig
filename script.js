@@ -33,7 +33,15 @@
 
   // create badge image & styles
   const badgeImage = document.createElement('img');
-  badgeImage.src = `./image-removebg-preview-bell.png`;
+  if (screen.width == "1920" || screen.width >="1920"){
+    //conputer
+    badgeImage.src = `./image-removebg-preview-bell.png`;
+    //bigest size
+  }
+  if (screen.width == "1024" || screen.width <= "1024"){
+    // ipad pro
+    badgeImage.src = `./image-removebg-preview.png`;
+  }
   badgeImage.id = 'mybage';
   Object.assign(badgeImage.style, validPositions[position]);
 
