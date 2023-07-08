@@ -35,13 +35,15 @@
   const badgeImage = document.createElement('img');
   if (screen.width == "1920" || screen.width >="1920"){
     //conputer
-    badgeImage.src = `./image-removebg-preview-bell.png`;
+    badgeImage.src = `./image-removebg-preview.png`;
     //bigest size
   }
   if (screen.width == "1024" || screen.width <= "1024"){
     // ipad pro
-    badgeImage.src = `./image-removebg-preview.png`;
+    badgeImage.src = `./image-removebg-preview2.png`;
   }
+  if (screen.width == "480"|| screen.width <= "480"){
+    badgeImage.src = `./Screenshot 2023-07-05 120643_null.png`;
   badgeImage.id = 'mybage';
   Object.assign(badgeImage.style, validPositions[position]);
 
