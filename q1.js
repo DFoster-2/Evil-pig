@@ -77,7 +77,7 @@ function selectAnswer(e){
   const iscorrect = selctbnt.dataset.correct === "true";
   if(iscorrect){
     selctbnt.classList.add("correct");
-    scroe++;
+    scroe ++;
   }else{
      selctbnt.classList.add("incorrect");
   }
@@ -108,7 +108,7 @@ function getckoy(cname){
 function chechCky(){
   let user = getckoy("userername")
   if (user != ""){
-    const persentscore = parseInt(score)/questons.length*100;
+    const persentscore = parseInt(scroe)/questons.length*100;
     if (persentscore <= 25 ){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! (${persentscore}) \n ${user} that is a bad score.`;
     } else if (persentscore <= 50 ){
