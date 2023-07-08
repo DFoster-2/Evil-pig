@@ -23,7 +23,7 @@ ul{
   margin:0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--coler-pri-dar);
+  background-color: var(--wight);
   position: fixed;
   top: 0;
   width:100%
@@ -194,8 +194,4 @@ button:hover:not([disabled]){
 	font-size: 70px;
 }
 
-@media screen and (max-width: 180px) {
-  body{
-    display: none;
-  }
   
