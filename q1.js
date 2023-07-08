@@ -109,21 +109,18 @@ function chechCky(){
   let user = getckoy("userername")
   if (user != ""){
     const persentscore = parseInt(score)/questons.length*100;
-    if (persentscore < 25){
+    if (persentscore <= 25 ){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a bad score.`;
-    }
-    if  (persentscore < 50 && ! persentscore < 25){
+    } else if (persentscore <= 50 ){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a ok score.`;
-    }
-    if (persentscore > 50 && ! persentscore < 75){
+    }else if (persentscore <= 75){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a good score.`;
-    }
-    if (persentscore > 75 && ! persentscore == 100){
+    } else if (persentscore < 100){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a super score.`;
-    }
-    if (persentscore == 100){
+    } else{// persentscore == 100
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a brilant score.`;
     }
+    
     nextbutun.style.display = "block";
     nextbutun.innerHTML = "Home"
   }
