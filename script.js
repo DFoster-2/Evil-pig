@@ -28,12 +28,12 @@
   const badgeAnchor = document.createElement('a');
   Object.assign(badgeAnchor, {
     target: '_blank',
-    href: 'https://google.com',
+    href: 'https://danfosv2.github.io/Evil-pig/index.html',
   });
 
   // create badge image & styles
   const badgeImage = document.createElement('img');
-  badgeImage.src = `./Screenshot 2023-07-05 120643_${theme}.png`;
+  badgeImage.src = `./rsz_1rsz_image-removebg-preview32.png`;
   badgeImage.id = 'mybage';
   Object.assign(badgeImage.style, validPositions[position]);
 
