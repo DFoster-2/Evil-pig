@@ -115,7 +115,7 @@ function chechCky(){
     if  (persentscore < 50 && ! persentscore < 25){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a ok score.`;
     }
-    if (persentscore > 50 && ! persentscore > 75){
+    if (persentscore > 50 && ! persentscore < 75){
       questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! \n ${user} that is a good score.`;
     }
     if (persentscore > 75 && ! persentscore == 100){
