@@ -30,7 +30,7 @@ ul{
 }
   
 li {
-  background-color: var(--wight);
+  background-color: var(--coler-pri-dar);
   list-style-type: none;
   float: left;
   padding: 1rem;
