@@ -33,6 +33,7 @@ li {
   background-color: var(--coler-pri-dar);
   list-style-type: none;
   float: left;
+  padding: 1rem;
   
 }
   
@@ -192,3 +193,9 @@ button:hover:not([disabled]){
 	text-align: center;
 	font-size: 70px;
 }
+
+@media screen and (max-width: 1800px) {
+  body{
+    display: none;
+  }
+  
