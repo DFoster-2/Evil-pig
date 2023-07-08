@@ -16,6 +16,6 @@ function pin1(){
   if (pin == "9934"){
     window.location.href = "quiz1.html";
   }else{
-    alert("wrong pin")
+    alert('wrong pin');
   }
 }
