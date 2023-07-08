@@ -194,7 +194,7 @@ button:hover:not([disabled]){
 	font-size: 70px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 180px) {
   body{
     display: none;
   }
