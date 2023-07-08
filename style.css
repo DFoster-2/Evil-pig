@@ -30,7 +30,7 @@ ul{
 }
   
 li {
-  background-color: var(--coler-pri-dar);
+  background-color: var(--wight);
   list-style-type: none;
   float: left;
   padding: 1rem;
@@ -42,6 +42,7 @@ li a {
   color: var(--wight);
   text-align: center;
   padding: 14px 16px;
+  background-color: var(--coler-pri-dar);
   text-decoration: none;
 }  
 li a:hover{
