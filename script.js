@@ -42,9 +42,6 @@
     // ipad pro
     badgeImage.src = `./image-removebg-preview2.png`;
   }
-  if (screen.width == "480"|| screen.width <= "480"){
-    badgeImage.src = `./Screenshot 2023-07-05 120643_null.png`;
-  }
   badgeImage.id = 'mybage';
   Object.assign(badgeImage.style, validPositions[position]);
 
