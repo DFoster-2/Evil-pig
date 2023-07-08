@@ -176,7 +176,7 @@ button:hover:not([disabled]){
   color: #fff;
 }
 .big{
-  font-size: 70px;
+	font-size: 100px;
 }
 .pinentry{
   display: block;
