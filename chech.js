@@ -10,3 +10,12 @@ function logout(){
     window.location.href = "login.html";
   }
 }
+
+function pin1(){
+  pin = prompt("Pin for this quiz","");
+  if (pin == "9934"){
+    window.location.href = "quiz1.html";
+  }else{
+    alert("wrong pin")
+  }
+}
