@@ -110,15 +110,15 @@ function chechCky(){
   if (user != ""){
     const persentscore = parseInt(scroe)/questons.length*100;
     if (persentscore <= 25 ){
-      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! (${persentscore}) \n ${user} that is a bad score.`;
+      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! /n ${user}, you scored ${persentscore}%. /n ${user} that is a bad score.`;
     } else if (persentscore <= 50 ){
-      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! (${persentscore}) \n ${user} that is a ok score.`;
+      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! /n ${user}, you scored ${persentscore}%. /n ${user} that is a ok score.`;
     }else if (persentscore <= 75){
-      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! (${persentscore}) \n ${user} that is a good score.`;
+      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! /n ${user}, you scored ${persentscore}%. /n ${user} that is a good score.`;
     } else if (persentscore < 100){
-      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! (${persentscore}) \n ${user} that is a super score.`;
+      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! /n ${user}, you scored ${persentscore}%. /n ${user} that is a super score.`;
     } else{// persentscore == 100
-      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! (${persentscore}) \n ${user} that is a brilant score.`;
+      questionElement.innerHTML = `Well done ${user}, You have scored ${scroe} out of ${questons.length}! /n ${user}, you scored ${persentscore}%. /n ${user} that is a brilant score.`;
     }
     
     nextbutun.style.display = "block";
