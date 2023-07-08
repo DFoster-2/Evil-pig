@@ -33,7 +33,7 @@
 
   // create badge image & styles
   const badgeImage = document.createElement('img');
-  badgeImage.src = `./image-removebg-preview.png`;
+  badgeImage.src = `./image-removebg-preview-bell.png`;
   badgeImage.id = 'mybage';
   Object.assign(badgeImage.style, validPositions[position]);
 
