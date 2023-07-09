@@ -13,7 +13,7 @@ const questons = [
       { text: "Dak Prescott", correct: false},
       { text: "Lionel Messi", correct: false},
       { text: "Conor McGregor", correct: true},
-      { text: "Bob No_lastname", correct: true},]
+      { text: "Bob No_lastname", correct: false},]
   },
   {
     question: "What height is a regulation NBA basket?",
