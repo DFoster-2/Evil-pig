@@ -34,10 +34,10 @@ const questons = [
     {
     question: "What is the capital of Ireland?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
+      { text: "Limerick", correct: false},
+      { text: "Cork", correct: false},
       { text: "Dublin", correct: true},
-      { text: "", correct: false},]
+      { text: "Galway", correct: false},]
   },
     {
     question: "What is the tallest type of tree?",
