@@ -1,91 +1,83 @@
 const questons = [
   {
-    question: "",
+    question: "Where is Disney's European theme park located?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Paris, France", correct: true},
+      { text: "Southampton, uk", correct: false},
+      { text: "Paris, Mars", correct: false},
+      { text: "Paris, spain", correct: false},]
   },
   {
-    question: "",
+    question: "Which Disney movie has had the most sequels?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Snow White and the Seven Dwarfs", correct: false},
+      { text: "One Hundred and One Dalmatians", correct: false},
+      { text: "Toy Story", correct: true},
+      { text: "Fantasia", correct: false},]
   },
   {
-    question: "",
+    question: "Who was the first Disney princess?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Belle", correct: false},
+      { text: "Cinderella", correct: false},
+      { text: "Aurora", correct: false},
+      { text: "Snow White", correct: true},]
   },
   {
-    question: "",
+    question: "What color are Mickey Mouse's shoes?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Yellow", correct: true},
+      { text: "Red", correct: false},
+      { text: "Green", correct: false},
+      { text: "Orange", correct: false},]
   },
     {
-    question: "",
+    question: "What year was Cinderella released?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "1960", correct: false},
+      { text: "1945", correct: false},
+      { text: "1943", correct: false},
+      { text: "1950", correct: true},]
   },
     {
-    question: "",
+    question: "Mickey Mouse was originally named what?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Small Mouse", correct: false},
+      { text: "Big Mouse", correct: false},
+      { text: "Mortimer Mouse", correct: false},
+      { text: "Time Mouse", correct: false},]
   },
   {
-    question: "",
+    question: "How many 'Academy Awards for Best Original Song' has Disney won?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "13", correct: false},
+      { text: "14", correct: true},
+      { text: "15", correct: false},
+      { text: "16", correct: false},]
   },
   {
-    question: "",
+    question: "What year did Disneyland open?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "1900", correct: false},
+      { text: "19553678937179679658769872976987526", correct: false},
+      { text: "1955", correct: true},
+      { text: "19550", correct: false},]
   },
   {
-    question: "",
+    question: "What is the name of Andy’s neighbor in Toy Story?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Sid", correct: true},
+      { text: "Andy v2", correct: false},
+      { text: "Emma", correct: false},
+      { text: "Oliver", correct: false},]
   },
   {
-    question: "",
+    question: "How many fingers does Mickey Mouse have?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
-  },
-  {
-    question: "",
-    ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "2", correct: false},
+      { text: "3", correct: false},
+      { text: "4", correct: true},
+      { text: "5", correct: false},]
   },
 ];
 
