@@ -19,3 +19,12 @@ function pin1(){
     alert('wrong pin');
   }
 }
+
+function pin2(){
+  pin = prompt("Pin for this quiz","");
+  if (pin == "9934"){
+    window.location.href = "quiz2.html";
+  }else{
+    alert('wrong pin');
+  }
+}
