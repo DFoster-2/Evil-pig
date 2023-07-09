@@ -1,91 +1,91 @@
 const questons = [
   {
-    question: "",
+    question: "What is the only continent with land in all four hemispheres?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "UK", correct: false},
+      { text: "Africa", correct: true},
+      { text: "US", correct: false},
+      { text: "Antarctica", correct: false},]
   },
   {
-    question: "",
+    question: "Which river flows through the Grand Canyon?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Krishna River", correct: false},
+      { text: "Narmada River", correct: false},
+      { text: "Colorado River", correct: true},
+      { text: "Indus River", correct: false},]
   },
   {
-    question: "",
+    question: "What is the state capital of New York?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Brooklyn", correct: false},
+      { text: "New Jersey", correct: false},
+      { text: "Manhattan", correct: false},
+      { text: "Albany", correct: true},]
   },
   {
-    question: "",
+    question: "On what continent would you find the world’s largest desert?",
+    ansers:[
+      { text: "Europe", correct: false},
+      { text: "Africa", correct: false},
+      { text: "Antarctica", correct: true},
+      { text: "Dublin", correct: false},]
+  },
+    {
+    question: "What is the capital of Ireland?",
     ansers:[
       { text: "", correct: false},
       { text: "", correct: false},
-      { text: "", correct: false},
+      { text: "Dublin", correct: true},
       { text: "", correct: false},]
   },
     {
-    question: "",
+    question: "What is the tallest type of tree?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
-  },
-    {
-    question: "",
-    ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Redwoods", correct: true},
+      { text: "Coast redwood", correct: false},
+      { text: "Himalayan cypress", correct: false},
+      { text: "Yellow meranti", correct: false},]
   },
   {
-    question: "",
+    question: "True or False: Holland is a region in The Netherlands?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "True", correct: true},
+      { text: "False", correct: false},
+      { text: "True", correct: true},
+      { text: "False", correct: false},]
   },
   {
-    question: "",
+    question: "What is the capital of Canada?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "British Columbia", correct: false},
+      { text: "Ottawa", correct: true},
+      { text: "Manitoba", correct: false},
+      { text: "Manitoba", correct: false},]
   },
   {
-    question: "",
+    question: "What is the capital of England?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "UK", correct: false},
+      { text: "Southampton", correct: false},
+      { text: "London", correct: true},
+      { text: "Yorkshire (which is rubbish)", correct: false},]
   },
   {
-    question: "",
+    question: "How many stars are on the Chinese flag?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "3", correct: false},
+      { text: "4", correct: false},
+      { text: "5", correct: true},
+      { text: "6", correct: false},]
   },
   {
-    question: "",
+    question: "On what continent would you find the city of Baku?",
     ansers:[
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},
-      { text: "", correct: false},]
+      { text: "Asia", correct: true},
+      { text: "Europe", correct: false},
+      { text: "Africa", correct: false},
+      { text: "Antarctica", correct: false},]
   },
 ];
 
