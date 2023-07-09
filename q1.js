@@ -1,35 +1,91 @@
 const questons = [
   {
-    question: "Which is the larget animal in the world",
+    question: "",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
   },
   {
-    question: "Which is the larget animal in the world",
+    question: "",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
   },
   {
-    question: "Which is the larget animal in the world",
+    question: "",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
   },
   {
-    question: "Which is the larget animal in the world",
+    question: "",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+    {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+    {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+  {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+  {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+  {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+  {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
+  },
+  {
+    question: "",
+    ansers:[
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},
+      { text: "", correct: false},]
   },
 ];
 
