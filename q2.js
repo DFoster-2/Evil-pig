@@ -74,10 +74,10 @@ const questons = [
   {
     question: "Where would you be if you were standing on the Spanish Steps?",
     ansers:[
-      { text: "Rome", correct: false},
-      { text: "Spain", correct: true},
-      { text: "Spain", correct: true},
-      { text: "Spain", correct: true},]
+      { text: "Rome", correct: true},
+      { text: "Spain", correct: false},
+      { text: "Spain", correct: false},
+      { text: "Spain", correct: false},]
   },
 ];
 
