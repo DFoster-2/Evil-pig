@@ -1,35 +1,83 @@
 const questons = [
   {
-    question: "Which is the larget animal in the world",
+    question: "What is a group of crows called?",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "A herd", correct: false},
+      { text: "A blue whale", correct: false},
+      { text: "A murder", correct: true},
+      { text: "A Day", correct: false},]
   },
   {
-    question: "Which is the larget animal in the world",
+    question: "How many dots appear on a pair of dice?",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "12", correct: false},
+      { text: "67", correct: false},
+      { text: "42", correct: true},
+      { text: "56", correct: false},]
   },
   {
-    question: "Which is the larget animal in the world",
+    question: "Which is the only body part that is fully grown from birth?",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "Eyes", correct: true},
+      { text: "Feet", correct: false},
+      { text: "Head", correct: false},
+      { text: "Leg", correct: false},]
   },
   {
-    question: "Which is the larget animal in the world",
+    question: "Who performs the voice of Homer Simpson?",
     ansers:[
-      { text: "shark", correct: false},
-      { text: "blue whale", correct: true},
-      { text: "fish", correct: false},
-      { text: "ants", correct: false},]
+      { text: "Bob no_lastname", correct: false},
+      { text: "Nancy Cartwright", correct: false},
+      { text: "Dan Castellaneta", correct: true},
+      { text: "Dung Beetle", correct: false},]
+  },
+  {
+    question: "What country has the most islands?",
+    ansers:[
+      { text: "Norway", correct: false},
+      { text: "Canada ", correct: false},
+      { text: "Finland", correct: false},
+      { text: "Sweden", correct: true},]
+  },
+  {
+    question: "How many hearts does an octopus have?",
+    ansers:[
+      { text: "1", correct: false},
+      { text: "2", correct: false},
+      { text: "3", correct: true},
+      { text: "4", correct: false},]
+  },
+  {
+    question: "Where is the strongest human muscle located?",
+    ansers:[
+      { text: "Foot", correct: false},
+      { text: "Leg", correct: false},
+      { text: "Jaw", correct: true},
+      { text: "Other foot", correct: false},]
+  },
+  {
+    question: "What planet is closest to the sun?",
+    ansers:[
+      { text: "Ploto", correct: false},
+      { text: "Earth", correct: false},
+      { text: "Mars", correct: false},
+      { text: "Mercury", correct: true},]
+  },
+  {
+    question: "What is the most common surname in the United States?",
+    ansers:[
+      { text: "Bob", correct: false},
+      { text: "Foster", correct: false},
+      { text: "Smith", correct: true},
+      { text: "Johnson", correct: false},]
+  },
+  {
+    question: "Where would you be if you were standing on the Spanish Steps?",
+    ansers:[
+      { text: "Rome", correct: false},
+      { text: "Spain", correct: true},
+      { text: "Spain", correct: true},
+      { text: "Spain", correct: true},]
   },
 ];
 
